@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+
+</style>
+<body onload="afficherPanier()">
+   <header>
+    <div class="topbar">
+      <div style="display: flex;gap: 20px;;">
+      <img src="C:\Users\Pc\Downloads\Pharmacy neon sign with a green cross _ Premium….jpeg" alt="PharmaExpress Logo" class="logo" style="border-radius: 20px;">
+      <b >Pharma <br>Express
+      </b></div>
+   
+      <div class="contact" style="margin: 20px;">
+        <p style="font-size: 17px;">Service client<br><strong style="font-size: 20px;">0634262813</strong></p>
+      </div>
+      <div class="icons" style="display: flex;gap: 10px;">
+        <span style="font-size: 20px;"><a href="D.html" style="text-decoration: none;color: black;">👤 Mon compte</a></span>
+        <div style="border: 1px solid black;;"></div>
+        <span style="font-size: 20px;"><a href="C.HTml" style="text-decoration: none;color: black;"> 🛒 Panier</a>  </span>
+      </div>
+    </div>
+
+    <nav class="nav" >
+      <a href="A.html">Accueil</a>
+      <a href="B.html">Medicaments</a>
+      <a href="C.HTml">Panier</a>
+      <a href="D.html">Connexion</a>
+    </nav>
+  </header> 
+<article>
+<a href="B.html" style="color: green;"><-- Continne vos achats</a>
+
+</article>
+<main  style="display: block;">
+    <table id="cart-table" border="1" style="width: 800px;margin: 50px 250px;">
+    <thead>
+        <tr>
+            <th>Produit</th>
+            <th>Prix</th>
+            <th>Quantité</th>
+           
+        </tr>
+    </thead>
+    <p id="p" style="color: red;text-align: center;font-size: 22px;"></p>
+    <tbody id="cart-body" style="text-align: center;">
+        <!-- Les articles seront ajoutés ici dynamiquement -->
+    </tbody>
+</table>
+<div>
+<p style="float: right;font-size: 30px;font-weight: bolder;margin-right: 100px ;line-height: 70px;">Total panier<br>
+  <span id="cart-total" style="font-size: 20px;font-family: 'Courier New', Courier, monospace;margin-left: 40px;">Total:0 MAD</span><br>
+ <button onclick="afficherFormulaire()"  type="button"id="valider-btn"  style="border: none;background-color: green;color:black;border-radius: 0 0 20px 0;padding: 15px;font-weight: bolder;font-size: 20px; cursor:pointer;">
+  Valider la commande
+</button>
+</p></div></main>
+
+
+
+
+
+  <footer style="margin-top: 400px;">
+    <h2>PharmaExpress</h2>
+    <p>Bienvenue dans votre Pharmacie Bab Echifa. Nos pharmaciens à Casablanca vous écoutent et vous conseillent.</p>
+    <div class="logos">
+      <img src="C:\Users\Pc\Downloads\téléchargement-1 (1).png">
+    </div>
+    <p>&copy; 2025 PharmaExpress.com | Création : Abdel_ghani</p>
+    <p>Vous voulez votre propre site ? Visitez <a href="http://www.abdo.com">abdo.com</a></p>
+  </footer>
+
+
+</body>
+<script src="js.js"></script>
+</html>
+
+
