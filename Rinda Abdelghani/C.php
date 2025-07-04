@@ -1,5 +1,5 @@
 <?php
-require 'PA.php';
+require 'A.php';
 session_start();
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
