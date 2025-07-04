@@ -1,5 +1,5 @@
 <?php
-require 'PA.php'; 
+require 'A.php'; 
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $nom = $_POST['nom'];
